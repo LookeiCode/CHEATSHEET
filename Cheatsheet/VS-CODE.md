@@ -7,3 +7,7 @@ Duplicate line:  shift + insert
 Edit multiple of same spelling:  highlight text THEN shift + d
 
 Scroll horizontally:  shift + scroll
+
+
+PLUGINS/EXTENSIONS
+------------------
