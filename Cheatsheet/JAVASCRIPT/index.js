@@ -124,7 +124,7 @@ const person = {
 }
 // ! creating variables to represent specific values inside of an object
 const name = person.name
-cosnt age = person.age
+const age = person.age
 const married = person.isMarried
 
 // ! the above works fine but takes too much space, we can do this in one line
@@ -220,6 +220,28 @@ names.map((name) => {
 // ! you return "name" because as said before it represents each element in the names array, then just add (+) 1 to it
 // * 1 is in quotes "1" as a string because the elements in the array are strings 
 
+// * Using map with React to display names as headers (example)
+names.map((name) => {
+    return <h1> { name } </h1>
+})
+
+//how to remove duplicate elements from an array
+
+let names = ["Tyler", "Jack", "Jill","Tyler", "Tyler"]
+
+names.filter((name) => {
+    return name !== "Tyler"
+})
+// * unlike map where you return something using or manipulating/mutating the elements, in filter you return a condition
+// * if the condition is true, something happens
+// ! in this example we said we only want to keep the names that are NOT (!) equal (==) to "Tyler" - so now the names array only has "Jack" and "Jill" in the array
+
+// ********************************************************************************************************
+
+
+
+// ********************************************************************************************************
+// ASYNC / AWAIT / FETCH (ASYNCHRONOUS CODE)
 
 
 
